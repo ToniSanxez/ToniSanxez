@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="hojasdestilo/style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+h1,h2,h3,h4,h5,h6 {font-family: "Oswald"}
+body {font-family: "Open Sans"}
+</style>
+</head>
+<body class="w3-light-grey">
+
+<!-- Navigation bar with social media icons -->
+<div class="w3-bar w3-light-grey w3-hide-small">
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-facebook-official"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-instagram"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-snapchat"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-flickr"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-twitter"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-linkedin"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-right"><i class="fa fa-search"></i></a>
+</div>
+  
+<!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:1600px">
+
+ 
+
+  <!-- Image header -->
+  <header class="w3-display-container w3-wide" id="home">
+    <img class="w3-image" src="imagenesweb/Portada.jpg" alt="Blog de Moda" width="1600" height="1060">
+  </header>
+
+  <!-- Grid -->
+  <div class="w3-row w3-padding w3-border">
+
+    <!-- Blog entries -->
+    <div class="w3-col l8 s12">
+    
+      <!-- Blog entry -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h1>Mercedes-AMG GT C Coupé</h1>
+          <h5><span class="w3-opacity">Abril 21, 2021</span></h5>
+<h2> 38.500€ - 55.900€ </h2>
+        </div>
+
+        <div class="w3-justify">
+          <img src="imagenesweb/mercedes 2.0 (1).jpg" alt="Mercedes AMG" style="width:100%" class="w3-padding-16">
+          <p>El <strong>Mercedes AMG GTR</strong> es un deportivo Gran Turismo <strong>biplaza</strong>, el cual su fabricación empezó en el año <strong>2015</strong>. Tiene una longitud de <strong>4546 mm</strong>, una anchura de <strong>1939 mm</strong>, y una alura de <strong>1288 mm</strong>. Este deportivo cuenta con un motor central V8 Biturbo de unos 730 caballos (CV). Los frenos de este coche son <strong>discos ventilados cerámicos de 390mm</strong>, la dirección es una <strong>cremallera y piñón sensible a la velocidad</strong>. También cuenta con una transmisión de <strong>doble embrague Getrag</strong>y una suspensión de <strong>doble horquilla</strong>. El peso de este gran deportivo es de <strong>2380Kg</strong>, permitiendo al coche correr la gran velocidad de <strong>325 km/h</strong> y alcanza los 100 km/h en 3,2 segundos. Y como último, pero no menos importante, su maletero puede cargar hasta <strong>350 litros</strong>. </p>
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-light-grey" onclick="myFunction('demo1')" id="myBtn"><b>Comentarios  </b> <span class="w3-tag w3-white">92391</span></button></p>
+          <p class="w3-clear"></p>
+          <div class="w3-row w3-margin-bottom" id="demo1" style="display:none">
+            <hr>
+              <div class="w3-col l2 m3">
+                <img src="imagenesweb/avatar_smoke.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>George <span class="w3-opacity w3-medium">May 3, 2015, 6:32 PM</span></h4>
+                <p>Great blog post! Following</p>
+              </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Blog entry -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h1>Pagani Huarya</h1>
+          <h5><span class="w3-opacity">Junio 8, 2015</span></h5>
+<h2> 480.700€ - 1.220.000€ </h2>
+        </div>
+
+        <div class="w3-justify">
+          <img src="imagenesweb/pagani.jpg" alt="Pagani Huayra" style="width:100%" class="w3-padding-16">
+          <p>Uno de los superdeportivos más <strong>reconocidos</strong> durante el año 2011 fue sin duda el <strong>Pagani Huayra</strong>. Este coche Italiano tiene una longitud de <strong>4605 mm</strong>, una anchura de <strong>2036 mm</strong>, y una altura de <strong>1169 mm</strong>. Contiene un motor <strong>V12 biturbo</strong> de <strong>850 caballos</strong> (CV) y un peso de <strong>1350 Kg</strong>, permitiendo al coche alcanzar la velocidad máxima de <strong>383 km/h</strong>. Su aceleración es de 0-100km/h en <strong>2.8 segundos</strong>. Tiene unos frenos con discos <strong>ventilados de carbono cerámicos Brembo</strong>, su transmisión es <strong>manual</strong> de 7 velocidades, y su suspensión es <strong>independiente de doble horquilla</strong>.</p>
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-light-grey" onclick="myFunction('demo2')"><b>Comentarios  </b> <span class="w3-tag w3-white">63374</span></button></p>
+          <p class="w3-clear"></p>
+          
+          <!-- Example of comment field -->
+          <div id="demo2" style="display:none">
+            <div class="w3-row">
+              <hr>
+              <div class="w3-col l2 m3">
+                <img src="imagenesweb/girl_train.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Amber <span class="w3-opacity w3-medium">April 26, 2015, 10:52 PM</span></h4>
+                <p>Love your blog page! Simply the best! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p><br>
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="imagenesweb/girl.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Angie <span class="w3-opacity w3-medium">April 23, 2015, 9:12 PM</span></h4>
+                <p>Love hats!!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Blog entry -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h1>BMW M3 Coupé</h1>
+          <h5><span class="w3-opacity">Marzo 3, 2019</span></h5>
+<h2> 29.200€ - 48.100€ </h2>
+        </div>
+
+        <div class="w3-justify">
+          <img src="imagenesweb/bmw.jpg" alt="BMW M3" style="width:100%" class="w3-padding-16">
+      <p>El <strong>BMW M3 Coupé</strong>, también conocido como <strong>F80 M3</strong>, es la quinta generación del M3. Este deportivo coupé es uno de los más vendidos de los últimos 5 años. Este coche tiene una longitud de <strong>4671 mm</strong>, una anchura de <strong>1877 mm</strong>, una altura de <strong>1424 mm</strong>, y un peso de <strong>1497 Kg</strong>. Su motor es <strong>delantero</strong>, siendo este un <strong>S55 Biturbo</strong>, y tiene una potencia de <strong>431 CV</strong>, pudiendo alcanzar la velocidad máxima de <strong>280 km/h</strong>, y alcanzar de 0-100 en <strong>3,9 segundos</strong>. Tiene una dirección de <strong>cremallera y piñón electromecánica</strong>, y una transmisión <strong>manual de 6 velocidades semi-automatica de doble embrague</strong>. Una de las características que más les gusto a los compradores fue su <strong>suspensión adaptiva</strong>, lograba dar una gran comodidad en el coche en cualquier tipo de asfalto. Sus frenos son <strong>discos ventilados carbono-cerámicos</strong> en las 4 ruedas. El consumo de este coche es de <strong>8,3 L / 100km/h</strong> y un maletero que ocupa <strong>480 m cubicos</strong>. </p>
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-light-grey" onclick="myFunction('demo3')"><b>Comentarios  </b> <span class="w3-tag w3-white">3892749</span></button></p>
+          <p class="w3-clear"></p>
+          
+          <!-- Example of comment field -->
+          <div id="demo3" style="display:none">
+            <hr>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="imagenesweb/girl_mountain.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Jane <span class="w3-opacity w3-medium">April 10, 2015, 7:22 PM</span></h4>
+                <p>That was a great runway show! Thanks for everything.</p>
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="imagenesweb/boy.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>John <span class="w3-opacity w3-medium">April 8, 2015, 10:32 PM</span></h4>
+                <p>Keep up the GREAT work! I am cheering for you!! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="imagenesweb/girl_hood.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Anja <span class="w3-opacity w3-medium">April 7, 2015, 9:12 PM</span></h4>
+                <p>Cant wait for the runway to start!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    <!-- END BLOG ENTRIES -->
+    </div>
+
+    <!-- About/Information menu -->
+    <div class="w3-col l4">
+      <!-- About Card -->
+      <div class="w3-white w3-margin">
+        <img src="imagenesweb/bmw volante (1).jpg" alt="Portada 2" style="width:100%" class="w3-grayscale">
+        <div class="w3-container w3-padding w3-black">
+          <h2>¿De que va Auto Premium?</h2>
+          <p> Auto Premium es un concesionario exclusivo de España, en el cual puedes comprar o alquilar vehiculos de lujo por precios muy baratos. Nuestra carta va desde coches comunes como Audi, hasta coches exclusivos como Koenigsegg.</p>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Posts -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h2>Marcas Populares</h2>
+        </div>
+        <ul class="w3-ul w3-hoverable w3-white">
+          <li class="w3-padding-16">
+            <img src="imagenesweb/bmw logo.jpg" alt="BMW" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">BMW</span>
+            <br>
+            <span>La marca Alemana mas vendida este año.</span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="imagenesweb/mercedes logo.jpg" alt="Mercedes" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">Mercedes-Benz</span>
+            <br>
+            <span>Considerada como la mejor marca lujosa.</span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="imagenesweb/lotus logo.jpg" alt="Lotus" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">Lotus</span>
+            <br>
+            <span>De las mejores marcas de deportivos Britanicos.</span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="imagenesweb/lambo logo.jpg" alt="Lamborghini" class="w3-left w3-margin-right w3-sepia" style="width:50px">
+            <span class="w3-large">Lamborghini</span>
+            <br>
+            <span>Muy conocida por su gran variedad de diseño, precios, y rendimiento.</span>
+          </li>
+        </ul>
+      </div>
+      <hr>
+
+      <!-- Advertising -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h2>¡Super Oferta!</h2>
+
+        </div>
+        <div class="w3-container w3-white">
+          <div class="w3-container w3-display-container w3-white w3-section" style="height:200px">
+  <img src="imagenesweb/anuncio 4.jpg" alt="Anuncio" class="w3-left w3-margin-center" style="width:430px">
+           
+          </div>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Marcas -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h2>Marcas</h2>
+        </div>
+        <div class="w3-container w3-white">
+          <p>
+            <span class="w3-tag w3-light-grey w3-margin-bottom">Renault</span> <span class="w3-tag w3-light-grey w3-margin-bottom">Ford</span> <span class="w3-tag w3-light-grey w3-margin-bottom">Toyota</span>
+            <span class="w3-tag w3-light-grey w3-margin-bottom">Porsche</span> <span class="w3-tag w3-light-grey w3-margin-bottom">Nissan</span> <span class="w3-tag w3-light-grey w3-margin-bottom">BMW</span>
+            <span class="w3-tag w3-light-grey w3-margin-bottom">Mercedes-Benz</span> <span class="w3-tag w3-light-grey w3-margin-bottom">Lamborghini</span> <span class="w3-tag w3-light-grey w3-margin-bottom">Hyundai</span>
+            <span class="w3-tag w3-light-grey w3-margin-bottom">Pagani</span> <span class="w3-tag w3-light-grey w3-margin-bottom">Lotus</span> <span class="w3-tag w3-light-grey w3-margin-bottom">Acura</span>
+            <span class="w3-tag w3-light-grey w3-margin-bottom">Ferrari</span> <span class="w3-tag w3-light-grey w3-margin-bottom">Cupra</span>
+          </p>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Inspiration -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h2>Los Suv Mas Vendidos</h2>
+        </div>
+        <div class="w3-row-padding w3-white">
+          <div class="w3-col s6">
+            <p><img src="imagenesweb/hyundai.jpg" alt="Jeans" style="width:100%"><br><strong>Hyundai Kona</strong></p>
+            <p><img src="imagenesweb/bmw suv.jpg" alt="Jeans" style="width:100%"><br><strong>BMW X4</strong></p>
+          </div>
+          <div class="w3-col s6">
+            <p><img src="imagenesweb/toyota suv.jpg" alt="Men in Hats" style="width:100%" class="w3-grayscale"><br><strong>Toyota RAV 4</strong></p>
+            <p><img src="imagenesweb/mercedes b.jpg" alt="Jeans" style="width:100%"><br><strong>Mercedes GLB 200</strong></p>
+         </div>
+        </div>
+      </div>
+      <hr>
+
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-light-grey">
+          <h4>Siguenos</h4>
+        </div>
+        <div class="w3-container w3-xlarge w3-padding">
+          <i class="fa fa-facebook-official w3-hover-opacity"></i>
+          <i class="fa fa-instagram w3-hover-opacity"></i>
+          <i class="fa fa-snapchat w3-hover-opacity"></i>
+          <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+          <i class="fa fa-twitter w3-hover-opacity"></i>
+          <i class="fa fa-linkedin w3-hover-opacity"></i>
+        </div>
+      </div>
+      <hr>
+      
+      <!-- Subscribe -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h2>Subscribete</h2>
+        </div>
+        <div class="w3-container w3-white">
+          <p>Escribe tu correo / e-mail aqui para poder iniciar sesión.</p>
+          <p><input class="w3-input w3-border" type="text" placeholder="Escribe aqui el correo" style="width:100%"></p>
+          <p><button type="button" onclick="document.getElementById('subscribe').style.display='block'" class="w3-button w3-block w3-red">Subscribete</button></p>
+        </div>
+      </div>
+
+    <!-- END About/Intro Menu -->
+    </div>
+
+  <!-- END GRID -->
+  </div>
+
+<!-- END w3-content -->
+</div>
+
+<!-- Subscribe Modal -->
+<div id="subscribe" class="w3-modal w3-animate-opacity">
+  <div class="w3-modal-content" style="padding:32px">
+    <div class="w3-container w3-white">
+      <i onclick="document.getElementById('subscribe').style.display='none'" class="fa fa-remove w3-transparent w3-button w3-xlarge w3-right"></i>
+      <h2 class="w3-wide">SUBSCRIBE</h2>
+      <p>Join my mailing list to receive updates on the latest blog posts and other things.</p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail"></p>
+      <button type="button" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom" onclick="document.getElementById('subscribe').style.display='none'">Subscribe</button>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-dark-grey" style="padding:32px">
+  <a href="#" class="w3-button w3-light-grey w3-padding-large w3-margin-bottom"><i class="fa fa-arrow-up w3-margin-right"></i>Ir al Inicio</a>
+  <p>Plantilla utilizada <a href="https://www.w3schools.com/w3css/tryw3css_templates_fashion_blog.htm" target="_blank">JANE BLOGLIFE</a></p>
+</footer>
+
+<script>
+// Toggle between hiding and showing blog replies/comments
+document.getElementById("myBtn").click();
+function myFunction(id                        
